@@ -1,0 +1,118 @@
+:root{
+    --main-light : #005eb8;
+    --main-dark : #000;
+    --secondary : #FE4A49;
+    --light : #fdfdfd;
+    --dark : #303841;
+    --light-grey : #FAFAFA;
+    --grey : #e4e3e3;
+}
+
+/* My Background Color */
+
+.myfsid-bg-main-light{
+    background-color: var(--main-light);
+}
+
+.myfsid-bg-main-dark{
+    background-color: var(--main-dark);
+}
+
+.myfsid-bg-secondary{
+    background-color: var(--secondary);
+}
+
+.myfsid-bg-light{
+    background-color: var(--light);
+}
+
+.myfsid-bg-dark{
+    background-color: var(--dark);
+}
+
+.myfsid-bg-light-grey{
+    background-color: var(--light-grey);
+}
+
+.myfsid-bg-grey{
+    background-color: var(--grey);
+}
+
+/* Font Color */
+
+.myfsid-main-light{
+    color: var(--main-light)
+}
+
+.myfsid-main-dark{
+    color: var(--main-dark)
+}
+
+.myfsid-secondary{
+    color: var(--secondary)
+}
+
+.myfsid-light{
+    color: var(--light)
+}
+
+.myfsid-dark{
+    color: var(--dark)
+}
+
+.myfsid-light-grey{
+    color: var(--light-grey)
+}
+
+.myfsid-grey{
+    color: var(--grey)
+}
+
+/* My Custom Font Size */
+
+.myfsid-font-size-10{
+    font-size: 10px;
+}
+
+.myfsid-font-size-12{
+    font-size: 12px;
+}
+
+.myfsid-font-size-14{
+    font-size: 14px;
+}
+
+.myfsid-font-size-16{
+    font-size: 16px;
+}
+
+.myfsid-font-size-18{
+    font-size: 18px;
+}
+
+.myfsid-font-size-20{
+    font-size: 20px;
+}
+
+.myfsid-font-size-30{
+    font-size: 30px;
+}
+
+.myfsid-font-size-45{
+    font-size: 45px;
+}
+
+/* My Link */
+
+.myfsid-link{
+    color: inherit;
+}
+
+.myfsid-link:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.myfsid-input:focus{
+    outline: none;
+}

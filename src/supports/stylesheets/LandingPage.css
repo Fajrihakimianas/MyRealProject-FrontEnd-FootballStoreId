@@ -1,0 +1,161 @@
+/* MOBILE VERSION */
+.myfsid-jumbotron{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./../images/Jumbotron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 575px;
+}
+
+.myfsid-jumbotron-title-campaign{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.myfsid-jumbotron-terms-campaign{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.myfsid-promo-items{
+    background-color: #000;
+    position: relative;
+}
+
+.myfsid-promo-items-discount-badge{
+    width: 50px;
+    height: 22px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.myfsid-promo-items-images{
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.myfsid-promo-items-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.myfsid-promo-items:hover .myfsid-promo-items-images{
+    opacity: 0.9;
+}
+
+.myfsid-promo-items:hover .myfsid-promo-items-button{
+    opacity: 1;
+}
+
+.myfsid-promo-items-button-text{
+    background-color: #fdfdfd;
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #303841;
+}
+
+.myfsid-catalog{
+    position: relative;
+    background-color: #000;
+}
+
+.myfsid-catalog-images{
+    height: 100%;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.myfsid-catalog-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.myfsid-catalog:hover .myfsid-catalog-images{
+    opacity: 0.5;
+}
+
+.myfsid-catalog:hover .myfsid-catalog-button{
+    opacity: 1;
+}
+
+.myfsid-catalog-button-text{
+    background-color: #fdfdfd;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #303841;
+}
+
+.myfsid-catalog-football{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./../images/Football Pack 1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.myfsid-catalog-gloves{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./../images/Gloves Pack.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.myfsid-catalog-jersey-shirt{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./../images/Jersey Pack 2.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.myfsid-catalog-futsal{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./../images/Futsal Pack.jpg') ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .myfsid-jumbotron-title-campaign{
+        font-size: 45px;
+        font-weight: bolder;
+    }
+
+    .myfsid-jumbotron-terms-campaign{
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .myfsid-newsletter{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/NewsLetterProductsNike.jpg') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+    }
+}

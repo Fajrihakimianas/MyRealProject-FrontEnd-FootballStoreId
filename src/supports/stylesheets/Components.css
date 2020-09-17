@@ -1,0 +1,56 @@
+.myfsid-clickable-element{
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.myfsid-total-carts-badge{
+  width: 15px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 25px;
+  top: 22px;
+  font-size: 10px;
+} 
+
+.myfsid-header-account-items {
+    width: 175px;
+    position: absolute;
+    z-index: 1;
+    background-color: #e4e3e3;
+    border-radius: 0px;
+    box-shadow: rgba(0,0,0, 0.2) 0px 1px 3px;
+    margin-top: 10px;
+    margin-left: 218px;
+    cursor: pointer;
+  }
+
+  .myfsid-header-account-items:before {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    z-index: 2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #e4e3e3;
+    top: -10px; 
+    right: 20px;
+    pointer-events: auto;
+  }
+  
+  .myfsid-header-account-items:after {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid rgba(0,0,0, 0.03);
+    top: -12px; 
+    right: 8px;
+    content: '';
+    pointer-events: auto;
+  }

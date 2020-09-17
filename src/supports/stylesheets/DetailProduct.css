@@ -1,0 +1,68 @@
+/* MOBILE VERSION */
+.myfsid-detail-product-discount-badge{
+    width: 45px;
+    height: 55px;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+.myfsid-detail-product-similiar-items{
+    position: relative;
+    background-color: #000;
+}
+
+.myfsid-detail-product-similiar-items-discount-badge{
+    width: 50px;
+    height: 22px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.myfsid-detail-product-similiar-items-images{
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.myfsid-detail-product-similiar-items-button{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.myfsid-detail-product-similiar-items:hover .myfsid-detail-product-similiar-items-images{
+    opacity: 0.9;
+}
+
+.myfsid-detail-product-similiar-items:hover .myfsid-detail-product-similiar-items-button{
+    opacity: 1;
+}
+
+.myfsid-detail-product-similiar-items-button-text{
+    background-color: #fdfdfd;
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #303841;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .myfsid-detail-product-discount-badge{
+        width: 45px;
+        height: 55px;
+        position: absolute;
+        top: 35px;
+        left: 95px;
+    }
+}

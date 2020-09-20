@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import LinkAPI from './../supports/constants/LinkAPI';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faCube, faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
-export class CatalogProducts extends Component{
+export class CatalogProducts extends Component {
 
     state = {
         data : null,

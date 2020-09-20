@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Axios from 'axios';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import LinkAPI from './../supports/constants/LinkAPI';
-import { Modal, ModalBody } from 'reactstrap'
+import { Modal, ModalBody } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -58,7 +58,7 @@ export class LoginModal extends Component {
                 {/* Login Modal */}
                 <Modal toggle={() => this.setState({modalOpen : false})} isOpen={this.state.modalOpen}>
                     <ModalBody className="border border-white">
-                        <div onClick={() => this.setState({modalOpen : false})} className="myfsid-clickable-element text-right">
+                        <div onClick={() => this.setState({modalOpen : false})} className="text-right myfsid-clickable-element">
                             <FontAwesomeIcon icon={faTimesCircle} className="fa-lg" />
                         </div>
                         <div className="px-5 py-0">

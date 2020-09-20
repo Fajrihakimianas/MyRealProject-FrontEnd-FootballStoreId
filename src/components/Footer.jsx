@@ -1,8 +1,8 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 
-export class Footer extends React.Component{
+export class Footer extends React.Component {
     render(){
         return(
             <div>

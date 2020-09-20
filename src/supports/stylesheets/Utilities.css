@@ -1,9 +1,9 @@
 :root{
     --main-light : #005eb8;
     --main-dark : #000;
-    --secondary : #FE4A49;
     --light : #fdfdfd;
     --dark : #303841;
+    --secondary : #FE4A49;
     --light-grey : #FAFAFA;
     --grey : #e4e3e3;
 }
@@ -38,7 +38,7 @@
     background-color: var(--grey);
 }
 
-/* Font Color */
+/* My Font Color */
 
 .myfsid-main-light{
     color: var(--main-light)

@@ -1,12 +1,12 @@
-import React from 'react'
-import Axios from 'axios'
+import React from 'react';
+import Axios from 'axios';
 import LinkAPI from '../supports/constants/LinkAPI';
 import { UncontrolledAlert } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
-export class Checkout extends React.Component{
+export class Checkout extends React.Component {
 
     state = {
         data : null,

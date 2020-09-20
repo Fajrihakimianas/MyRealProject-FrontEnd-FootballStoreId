@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import LinkAPI from './../supports/constants/LinkAPI';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes, faChevronRight, faChevronDown, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import HeaderLogo from './../supports/images/Logo-Header.png';
 import LoginModal from './LoginModal.jsx';
  
-export class Navbar extends Component{
+export class Navbar extends Component {
 
     state = {
         data : null,

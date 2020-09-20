@@ -1,11 +1,11 @@
-import React from 'react'
-import Axios from 'axios'
+import React from 'react';
+import Axios from 'axios';
 import { Link } from 'react-router-dom';
 import LinkAPI from '../supports/constants/LinkAPI';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReceipt } from '@fortawesome/free-solid-svg-icons';
 
-export class Checkout extends React.Component{
+export class Checkout extends React.Component {
 
     state = {
         data : null,

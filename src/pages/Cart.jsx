@@ -1,10 +1,10 @@
-import React from 'react'
-import Axios from 'axios'
-import LinkAPI from '../supports/constants/LinkAPI'
+import React from 'react';
+import Axios from 'axios';
+import LinkAPI from '../supports/constants/LinkAPI';
 import { UncontrolledAlert } from 'reactstrap';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
-export class Cart extends React.Component{
+export class Cart extends React.Component {
 
     state = {
         dataCarts : null,

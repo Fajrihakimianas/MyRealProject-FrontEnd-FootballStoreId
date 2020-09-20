@@ -7,7 +7,7 @@ import LoginModal from './../components/LoginModal.jsx';
 import PhoneNumberValidator from './../supports/functions/phoneNumberValidator.js';
 import EmailValidator from './../supports/functions/emailValidator.js';
 
-class Register extends Component{
+class Register extends Component {
 
     state = {
         loginStatus : false,

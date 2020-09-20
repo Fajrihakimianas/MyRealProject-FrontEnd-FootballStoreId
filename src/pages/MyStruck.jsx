@@ -1,10 +1,10 @@
-import React from 'react'
-import Axios from 'axios'
+import React from 'react';
+import Axios from 'axios';
 import { Link } from 'react-router-dom';
 import LinkAPI from '../supports/constants/LinkAPI';
-import Moment from 'moment'
+import Moment from 'moment';
 
-export class Checkout extends React.Component{
+export class Checkout extends React.Component {
 
     state = {
         data : null

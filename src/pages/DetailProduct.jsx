@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
 import LinkAPI from '../supports/constants/LinkAPI';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 import { UncontrolledAlert } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationCircle, faHeart } from '@fortawesome/free-solid-svg-icons';
-import LoginModal from './../components/LoginModal.jsx'
+import LoginModal from './../components/LoginModal.jsx';
 
-class DetailProduct extends Component{
+class DetailProduct extends Component {
 
     state = {
         data : null,
